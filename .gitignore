@@ -1,0 +1,14 @@
+# Obsidian — per-machine state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Obsidian — trash
+.trash/
+
+# Claude Code tooling (local)
+.claude/
+
+# OS cruft
+.DS_Store
+Thumbs.db
