@@ -7,7 +7,7 @@ Vault do Obsidian com notas de estudo. O ecossistema principal está em [`SO/`](
 Pré-requisito: [Obsidian](https://obsidian.md) instalado.
 
 ```bash
-git clone https://github.com/<seu-usuario>/cc-notas.git
+git clone https://github.com/victorfrancacg/cc-notas-de-estudo.git
 ```
 
 No Obsidian:
