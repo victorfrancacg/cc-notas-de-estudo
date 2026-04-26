@@ -17,7 +17,7 @@ detailed_in: Ch 13
 # Memory Virtualization
 
 > [!abstract] Definition
-> **Memory virtualization** is the OS's act of giving each [[Process]] the illusion of a large, private [[Address Space]] on top of a single shared physical memory. Every [[Virtual Address]] the program generates is translated — at hardware speed — to a physical location. The umbrella concept of [[MOC - Memory Virtualization|Part II of OSTEP]].
+> **Memory virtualization** is the OS's act of giving each [[Process]] the illusion of a large, private [[Address Space]] on top of a single shared physical memory. Every [[Virtual Address]] the program generates is translated — at hardware speed — to a physical location. The umbrella concept of the [[MOC - Memory Virtualization|memory half of Part I]] in OSTEP (Ch 12–24).
 
 ## The Three Goals
 

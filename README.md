@@ -25,3 +25,4 @@ No Obsidian:
 
 - As notas usam **wikilinks** (`[[Nota]]`), sintaxe nativa do Obsidian. No GitHub aparecem como texto literal — a experiência completa (grafo, backlinks, navegação) só funciona dentro do Obsidian.
 - Notas vazias são **placeholders** de conceitos a escrever.
+- Atualmente, as notas de Sistemas Operacionais cobrem o **primeiro "piece" do livro** (a parte I (caps 1-24)).

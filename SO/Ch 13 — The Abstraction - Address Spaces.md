@@ -127,7 +127,7 @@ The OS's job in this part of the book is to **virtualize memory with style**. Th
 ## 13.5 Summary
 
 > [!example] Crux answered
-> **How does the OS virtualize memory?** By giving each process an address space — a large, private, contiguous illusion — and using hardware-assisted translation to map every [[Virtual Address|virtual address]] the process generates onto an actual physical location. The rest of [[MOC - Memory Virtualization|Part II]] is mechanism (base/bounds, segmentation, paging, TLBs) and policy (allocation, replacement) for making this work efficiently and safely.
+> **How does the OS virtualize memory?** By giving each process an address space — a large, private, contiguous illusion — and using hardware-assisted translation to map every [[Virtual Address|virtual address]] the process generates onto an actual physical location. The rest of the [[MOC - Memory Virtualization|memory half of Part I]] is mechanism (base/bounds, segmentation, paging, TLBs) and policy (allocation, replacement) for making this work efficiently and safely.
 
 ## Aside: A Common Source of Confusion
 

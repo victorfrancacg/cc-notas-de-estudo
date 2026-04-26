@@ -14,7 +14,7 @@ pages: 127-128
 # Ch 11 — Summary Dialogue on CPU Virtualization
 
 > [!abstract] One-sentence summary
-> Closing dialogue of [[MOC - CPU Virtualization|Part I]]: the Student lists the [[Mechanism vs Policy|mechanisms]] (traps, [[Timer Interrupt|timer interrupts]], save/restore via [[Context Switch]]) and the [[Mechanism vs Policy|policies]] ([[FIFO Scheduling|FIFO]], [[SJF Scheduling|SJF]], [[Round Robin|RR]], [[MLFQ]]) learned. The Professor reframes them through the philosophy of [[Limited Direct Execution]] — the OS is *paranoid* on purpose — and admits, via [[Ousterhout's Law|Lampson]], that scheduling has no clean answer; engineering goal is **avoiding disaster**, not finding optimum.
+> Closing dialogue of the CPU half of Part I ([[MOC - CPU Virtualization]]): the Student lists the [[Mechanism vs Policy|mechanisms]] (traps, [[Timer Interrupt|timer interrupts]], save/restore via [[Context Switch]]) and the [[Mechanism vs Policy|policies]] ([[FIFO Scheduling|FIFO]], [[SJF Scheduling|SJF]], [[Round Robin|RR]], [[MLFQ]]) learned. The Professor reframes them through the philosophy of [[Limited Direct Execution]] — the OS is *paranoid* on purpose — and admits, via [[Ousterhout's Law|Lampson]], that scheduling has no clean answer; engineering goal is **avoiding disaster**, not finding optimum.
 
 ## Why a Dialogue Closes Each Part
 
@@ -53,8 +53,8 @@ The OS is best understood as a **resource manager** ([[Operating System|recall]]
 
 ## Related Notes
 
-- [[Limited Direct Execution]] — the central mechanism story of Part I.
+- [[Limited Direct Execution]] — the central mechanism story of CPU virtualization.
 - [[MLFQ]], [[CFS - Completely Fair Scheduler]] — the policy stars.
 - [[Mechanism vs Policy]] — the dichotomy structuring the entire part.
 - [[MOC - CPU Virtualization]] — the index this dialogue closes.
-- Next: [[Ch 12 — A Dialogue on Memory Virtualization]] — opens [[MOC - Memory Virtualization|Part II]].
+- Next: [[Ch 12 — A Dialogue on Memory Virtualization]] — opens the [[MOC - Memory Virtualization|memory half of Part I]].

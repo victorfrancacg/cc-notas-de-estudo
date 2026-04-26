@@ -26,7 +26,7 @@ For every load, store, and instruction fetch:
 4. If valid: emit the physical address to the memory bus.
 5. If invalid: raise an exception ([[Segmentation Fault|segfault]], page fault).
 
-## Evolution Through OSTEP Part II
+## Evolution Through OSTEP Memory Virtualization (Ch 15–20)
 
 | Chapter | Mechanism the MMU Implements |
 |---|---|

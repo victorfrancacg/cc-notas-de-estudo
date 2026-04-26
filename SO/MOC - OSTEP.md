@@ -21,23 +21,23 @@ edition: Version 1.10 (October 2023)
 
 ## The Three Pieces
 
-- [[MOC - CPU Virtualization]] — Part I (CPU side): the process abstraction, process API, limited direct execution, scheduling. *(Ch 1–11, **done**)*
-- [[MOC - Memory Virtualization]] — Part II: address spaces, paging, TLBs, swapping. *(Ch 12–24, **in progress** — Ch 12–20 done)*
-- Concurrency — Part III: threads, locks, condition variables, semaphores. *(Ch 25–34, pending)*
-- Persistence — Part IV: I/O devices, disks, RAID, file systems, journaling, distributed systems. *(Ch 35–51, pending)*
+- **Part I — Virtualization** *(Ch 1–24, **complete**)*. Two halves indexed by sub-MOCs:
+  - [[MOC - CPU Virtualization]] — CPU half: process, process API, LDE, scheduling. *(Ch 1–11)*
+  - [[MOC - Memory Virtualization]] — Memory half: address spaces, paging, TLBs, swapping, replacement, real-system case studies. *(Ch 12–24)*
+- **Part II — Concurrency** *(Ch 25–34)*: threads, locks, condition variables, semaphores. *(pending)*
+- **Part III — Persistence** *(Ch 35–51)*: I/O devices, disks, RAID, file systems, journaling, distributed systems. *(pending)*
 
 ## Progress Tracker
 
-| Part | Chapters | Status | Notes created |
+| Section | Chapters | Status | Notes created |
 |------|---------:|:------:|:---:|
-| CPU Virtualization | 1–11 | **Done** | ~70 |
-| Memory Virtualization | 12–20 | Done so far | ~40 (in Part II) |
-| Memory Virtualization | 21–24 | Pending | — |
-| Concurrency | 25–34 | Pending | — |
-| Persistence | 35–51 | Pending | — |
+| Part I — CPU Virtualization | 1–11 | **Done** | ~70 |
+| Part I — Memory Virtualization | 12–24 | **Done** | ~70 |
+| Part II — Concurrency | 25–34 | Pending | — |
+| Part III — Persistence | 35–51 | Pending | — |
 
 > [!note] Session state (as of 2026-04-26)
-> **Part I (CPU Virtualization) complete** through Ch 11. **Part II (Memory Virtualization)** progressing — Ch 12–20 done this session: dialogues, address spaces, memory API, address translation, segmentation, free-space management, paging, TLBs, smaller tables. Next session resumes at [[Ch 21 — Beyond Physical Memory - Mechanisms|Ch 21]] (swap space and page faults).
+> **Part I — Virtualization — complete.** Ch 21–24 wrap memory virtualization: swap mechanisms, replacement policies (FIFO/LRU/Clock/Optimal), VAX/VMS + Linux case studies, closing dialogue. Next session: Part II (Concurrency) — opens with [[Ch 25 — A Dialogue on Concurrency|Ch 25]], threads and the basics of shared-state coordination.
 
 ## Cross-Cutting Concepts
 

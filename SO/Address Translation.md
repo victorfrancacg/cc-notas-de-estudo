@@ -42,7 +42,7 @@ Every load, store, and instruction fetch goes through this path. Translation mus
 | [[Multi-Level Page Table]] | paginate the page table itself | shrinks per-process tables | extra walk on miss |
 | [[Inverted Page Table]] | one entry per physical frame | tiny on huge VAs | lookup needs hash |
 
-Each is a refinement responding to a deficiency of the prior — the [[MOC - Memory Virtualization|Part II story]] is essentially this evolution.
+Each is a refinement responding to a deficiency of the prior — the [[MOC - Memory Virtualization|memory-virtualization story]] (Ch 12–24) is essentially this evolution.
 
 ## Why It's Always Hardware
 
