@@ -33,7 +33,7 @@ Parent: [[MOC - OSTEP]]
 8. [[Ch 8 — Scheduling - MLFQ]] — Multi-Level Feedback Queue: learning workload behavior.
 9. [[Ch 9 — Scheduling - Proportional Share]] — lottery, stride, CFS.
 10. [[Ch 10 — Multiprocessor Scheduling]] — cache affinity, SQMS, MQMS.
-11. *Summary Dialogue on CPU Virtualization — intentionally skipped (Corbató would approve — the real review is just reading the chapters back with this MOC in hand).*
+11. [[Ch 11 — Summary Dialogue on CPU Virtualization]] — closing dialogue; Lampson's "avoid disaster" pragmatism.
 
 ## Core Concepts Introduced in Part I
 

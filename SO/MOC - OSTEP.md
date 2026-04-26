@@ -21,22 +21,23 @@ edition: Version 1.10 (October 2023)
 
 ## The Three Pieces
 
-- [[MOC - CPU Virtualization]] — Part I (CPU side): the process abstraction, process API, limited direct execution, scheduling. *(Ch 1–11)*
-- Memory Virtualization — Part I (memory side): address spaces, paging, TLBs, swapping. *(Ch 12–24, pending)*
-- Concurrency — Part II: threads, locks, condition variables, semaphores. *(Ch 25–34, pending)*
-- Persistence — Part III: I/O devices, disks, RAID, file systems, journaling, distributed systems. *(Ch 35–51, pending)*
+- [[MOC - CPU Virtualization]] — Part I (CPU side): the process abstraction, process API, limited direct execution, scheduling. *(Ch 1–11, **done**)*
+- [[MOC - Memory Virtualization]] — Part II: address spaces, paging, TLBs, swapping. *(Ch 12–24, **in progress** — Ch 12–20 done)*
+- Concurrency — Part III: threads, locks, condition variables, semaphores. *(Ch 25–34, pending)*
+- Persistence — Part IV: I/O devices, disks, RAID, file systems, journaling, distributed systems. *(Ch 35–51, pending)*
 
 ## Progress Tracker
 
 | Part | Chapters | Status | Notes created |
 |------|---------:|:------:|:---:|
-| CPU Virtualization | 1–10 | **Done** | ~65 |
-| Memory Virtualization | 11–24 | Pending | — |
+| CPU Virtualization | 1–11 | **Done** | ~70 |
+| Memory Virtualization | 12–20 | Done so far | ~40 (in Part II) |
+| Memory Virtualization | 21–24 | Pending | — |
 | Concurrency | 25–34 | Pending | — |
 | Persistence | 35–51 | Pending | — |
 
-> [!note] Session state (as of 2026-04-21)
-> Processed chapters **1 through 10** (CPU virtualization). Next session resumes at [[Ch 13 — The Abstraction - Address Spaces|Ch 13]] (Memory Virtualization starts after the summary dialogue in Ch 11 and the memory dialogue in Ch 12).
+> [!note] Session state (as of 2026-04-26)
+> **Part I (CPU Virtualization) complete** through Ch 11. **Part II (Memory Virtualization)** progressing — Ch 12–20 done this session: dialogues, address spaces, memory API, address translation, segmentation, free-space management, paging, TLBs, smaller tables. Next session resumes at [[Ch 21 — Beyond Physical Memory - Mechanisms|Ch 21]] (swap space and page faults).
 
 ## Cross-Cutting Concepts
 

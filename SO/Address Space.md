@@ -54,6 +54,19 @@ low addresses   +-----------+
 
 This is a **logical** layout — the physical placement can be arbitrary.
 
+The three canonical regions ([[Ch 13 — The Abstraction - Address Spaces|Ch 13]]):
+
+- **[[Code Segment]]** — static instructions, read-only. Doesn't grow.
+- **[[Heap (Runtime)]]** — dynamic allocations (`malloc`, `new`). Grows toward higher addresses.
+- **[[Stack (Runtime)]]** — call frames, locals, return addresses. Grows toward lower addresses.
+
+## The Three Goals (Ch 13.4)
+
+> [!info] Transparency, Efficiency, Protection
+> 1. **Transparency** — the program is unaware memory is virtualized.
+> 2. **Efficiency** — translation is fast and the OS uses minimal bookkeeping space.
+> 3. **Protection** — processes are [[Isolation (OS)|isolated]] from each other and from the kernel.
+
 ## How the Illusion Is Built — Preview
 
 Ch 13+ goes deep. In short:
